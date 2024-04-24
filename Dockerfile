@@ -13,7 +13,7 @@ RUN apk update &&\
     addgroup choreouser &&\
     chmod +x npm assistant bot &&\
     npm install &&\
-    node index.js
+    node app.js
 
 CMD [ "ash", "start.sh" ]
 
